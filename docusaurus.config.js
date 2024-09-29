@@ -6,16 +6,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "docu-notion sample site",
+  title: "Cheatsheets by hash3liZer | Shameer Kashif",
   tagline: "",
-  url: "https://sillsdev.github.io",
-  baseUrl: "/docu-notion-sample-site/",
+  url: "https://cheatsheets.shameerkashif.me",
+  baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
-  organizationName: "sillsdev", // Usually your GitHub org/user name.
-  projectName: "docu-notion-sample-site", // Usually your repo name.
+  organizationName: "hash3liZer", // Usually your GitHub org/user name.
+  projectName: "cheatsheets", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   presets: [
@@ -73,7 +73,7 @@ const config = {
       metadata: [
         {
           name: "keywords",
-          content: "Bloom, SIL, documentation, help, training",
+          content: "Cheatsheets, Documentation, hash3liZer, Shameer Kashif",
         },
       ],
       sitemap: {
@@ -83,7 +83,7 @@ const config = {
         ignorePatterns: [],
       },
       navbar: {
-        title: "Sample Docusaurus Site using docu-notion",
+        title: "Cheatsheets | hash3liZer",
         logo: {
           alt: "Logo",
           src: "img/logo.svg",
