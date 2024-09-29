@@ -86,7 +86,7 @@ const config = {
         title: "Cheatsheets | hash3liZer",
         logo: {
           alt: "Logo",
-          src: "img/logo.svg",
+          src: "img/logo.png",
         },
 
         items: [
@@ -98,7 +98,7 @@ const config = {
       },
 
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
